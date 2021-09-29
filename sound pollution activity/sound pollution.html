@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="style.css"/>
+      <script src="js/bootstrap.min.js"></script>
+  <title>
+     SOUND POLLUTION
+  </title>
+</head>
+<body>
+    <h1 id="head">ACTIVITY ON SOUND POLLUTION</h1>
+    <h4 id="h3">Click on the buttons to know the decibel values of the following through progress bar.</h4>
+    <h4 id="h1">Blue color in the bar indicates that particular noise level is very safe and green color indicates that level is safe.</h4>
+    <h4 id="h2">Red color in the bar indicates that level is dangerous and the dark red color indicates that level is very dangerous.</h4>
+    <div class="row">
+        <div class="col-sm-11">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              id="pollution"
+              role="progressbar"
+              style="width: 10%"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="150"
+            ></div>
+          </div>
+        </div>
+    </div>
+        <img id ="img" onclick="BO()" src="business_office.jpg" height="148px" weight="148px">
+        <img id ="img1" onclick="BR()" src="bed_room.jpg" height="150px" weight="150px">
+        <img id ="img2" onclick="CS()" src="conversational_speech.jpg" height="170px" weight="170px">
+        <img id ="img3" onclick="JE()" src="jet_engine.png" height="159px" weight="159px">
+        <img id ="img4" onclick="JH()" src="jack_hammer.jpg" height="149px" weight="149px">
+        <img id ="img5" onclick="LR()" src="living_room.jpg" height="140px" weight="140px">
+        <img id ="img6" onclick="LRM()"  src="live_rock_music.jpg" height="141px" weight="141px">
+        <img id ="img7" onclick="ST()" src="street_traffic.jpg" height="130px" weight="130px">
+        <img id ="img8" onclick="WL()"  src="wood_land.jpg" height="178px" weight="178px">
+        <img id ="img9" onclick="HT()"  src="heavy_truck.jpg" height="153px" weight="153px">
+  <script src="sound.js"></script>
+</body>
+</html>
